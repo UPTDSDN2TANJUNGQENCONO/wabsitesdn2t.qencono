@@ -1,0 +1,243 @@
+/* Contoh gaya dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: #222;
+}
+
+.navwrapper {
+    width: 100%;
+    height:50px;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.contentwraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.nav:hover {
+    background-color: black;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.nav:hover>a {
+    color: greenyellow;
+}
+.navlink {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+header, nav, main, footer {
+    padding: 5px;
+
+}
+
+header img {
+    max-width: 15%; /* Maksimum lebar gambar adalah lebar header */
+    height: auto; /* Memastikan aspek rasio gambar terjaga */
+    display: block;
+    margin: 0 auto; /* Memposisikan gambar di tengah */
+}
+
+header {
+    background-image: url('pagarsd2.jpg'); /* Ganti dengan path gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    color: #fff; /* Teks akan berwarna  putih untuk kontras yang baik */
+    padding: 10px 10px; /* Sesuaikan jarak sesuai keinginan Anda */
+    margin-top: 40px;
+}
+
+header h1{
+    display: inline-block; /* Agar teks hanya menempati ruang yang diperlukan */
+    padding: 20px; /* Sesuaikan jarak teks dengan tepi header */
+    font-size: 2rem;
+}
+
+address {
+    font-size: 14px;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: auto;
+    height: 30px;
+    background-color: #222;
+    margin-top: 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+main img {
+    max-width: 100%;
+    height: auto; 
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+main {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.visi, .misi {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.visi-misi {
+    color: white;
+}
+
+.visi h3, .misi h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.visi p, .misi ul {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.gambar {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.gambar img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.deskripsi {
+    color: white;
+}
+
+.kolom-gambar {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.kolom-gambar img {
+    max-width: 30%;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.kolom-gambar img:hover {
+    display: block;
+}
+
+footer {
+    text-align: center;
+    background-color: none;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+}
+
+.facebook img {
+    max-width: 100px;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+h2 {
+    background-color: #333;
+    text-align: center;
+    color: white;
+}
+
+.guru-row {
+    display: flex;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.guru-item {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.guru-item img {
+    max-width: 100%;
+    height: 60%;
+}
+.deskripsi {
+    padding: 10;
+    font-size: 10px;
+}
+
