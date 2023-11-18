@@ -229,6 +229,7 @@ h2 {
 .guru-row {
     display: flex;
     margin-bottom: 10px;
+    flex-wrap: wrap;
 }
 
 .guru-item {
@@ -238,8 +239,8 @@ h2 {
 }
 
 .guru-item img {
-    max-width: auto;
-    height: auto;
+    max-width: 60%;
+    height: 60%;
     padding: auto;
 }
 .deskripsi {
